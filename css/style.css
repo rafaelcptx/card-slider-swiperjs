@@ -1,0 +1,99 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+}
+
+.slider-container {
+  max-width: 1120px;
+  width: 100%;
+  background-color: rgb(245, 245, 245);
+  padding: 40px 0;
+}
+
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+
+.slide-content {
+  margin: 0 40px;
+}
+
+.card {
+  cursor: grab;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.image-content {
+  row-gap: 5px;
+  position: relative;
+  padding: 25px 0;
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgb(66, 66, 66);
+  border-radius: 25px;
+}
+
+.card-image {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  padding: 3px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px rgb(66, 66, 66) solid;
+}
+
+.name {
+  font-size: 20px;
+}
+
+.description {
+  font-size: 15px;
+  color: #707070;
+  text-align: center;
+}
+
+.button {
+  border: none;
+  font-size: 16px;
+  color: white;
+  padding: 8px 16px;
+  background-color: rgb(66, 66, 66);
+  border-radius: 6px;
+  cursor: pointer;
+  margin: 14px;
+  transition: all 0.5s ease;
+}
+
+.button:hover {
+  background-color: black;
+}
