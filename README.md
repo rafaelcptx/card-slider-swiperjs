@@ -1,4 +1,5 @@
 # Responsive Drag Scroll (SwiperJs)
+Acesse (deploy) : https://rafaelcptx.github.io/card-slider-swiperjs/
 ## Sessão Depoimentos
 
 Continuando com o intuito de praticar criando funcionalidades que são comumente tasks de rotina do mercado, criei esse projeto de estudo Drag Scroll Responsivo como uma sessão de depoimentos.
